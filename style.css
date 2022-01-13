@@ -213,9 +213,9 @@ input[type="checkbox"] {
   transform: scaleX(1);
   width: 100%;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 968px) {
   html {
-    font-size: 12px;
+    font-size: 18px;
   }
   .content button {
     padding: 5px 8px;
@@ -226,6 +226,9 @@ input[type="checkbox"] {
     height: 20px;
     width: 40px;
     border-radius: 8px;
+  }
+  .content .title {
+    font-size: 2rem;
   }
   .sliders {
     left: 50%;
