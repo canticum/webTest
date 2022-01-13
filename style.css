@@ -223,7 +223,7 @@ input[type="checkbox"] {
     margin: 0% 1% 1.5% 0%;
   }
   .sliders .tap {
-    height: 80px;
+    height: 25px;
     width: 80px;
     border-radius: 8px;
   }
