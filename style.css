@@ -213,7 +213,7 @@ input[type="checkbox"] {
   transform: scaleX(1);
   width: 100%;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1380px) {
   html {
     font-size: 18px;
   }
@@ -237,5 +237,8 @@ input[type="checkbox"] {
   }
   .slogan {
     font-size: 12rem;
+  }
+  .content button {
+    font-size: 1.5rem;
   }
 }
