@@ -1,311 +1,323 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8" />
     <title>多線敘事互動展</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Vollkorn:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     />
   </head>
   <body>
-    <div class="slogan">多線互動敘事工作坊</div>
-    <div class="blog-card">
-      <input type="radio" name="select" id="tap-1" checked />
-      <input type="radio" name="select" id="tap-2" />
-      <input type="radio" name="select" id="tap-3" />
-      <input type="radio" name="select" id="tap-4" />
-      <input type="radio" name="select" id="tap-5" />
-      <input type="radio" name="select" id="tap-6" />
-      <input type="radio" name="select" id="tap-7" />
-      <input type="radio" name="select" id="tap-8" />
-      <input type="radio" name="select" id="tap-9" />
-      <input type="radio" name="select" id="tap-10" />
-      <input type="checkbox" id="imgTap" />
-      <div class="sliders">
-        <label for="tap-1" class="tap tap-1"></label>
-        <label for="tap-2" class="tap tap-2"></label>
-        <label for="tap-3" class="tap tap-3"></label>
-        <label for="tap-4" class="tap tap-4"></label>
-        <label for="tap-5" class="tap tap-5"></label>
-        <label for="tap-6" class="tap tap-6"></label>
-        <label for="tap-7" class="tap tap-7"></label>
-        <label for="tap-8" class="tap tap-8"></label>
-        <label for="tap-9" class="tap tap-9"></label>
-        <label for="tap-10" class="tap tap-10"></label>
+    <!-- partial:index.partial.html -->
+    <div class="card-main">
+      <div class="card_date">Workshop for Interactive Branching Narratives</div>
+      <!-- <time datetime="2021-03-30" class="card__date">30 März 2021</time> -->
+      <div class="card__content_main">
+        <span class="card__title title_fix"> 多線互動敘事工作坊</span>
+        <div class="text">授課老師：張俊彥</div>
       </div>
-      <div class="inner-part">
-        <label for="imgTap" class="img">
-          <img class="img-1" src="profile-2.jpg" />
-        </label>
-        <div class="content content-1">
-          <span>第一組</span>
-          <div class="title">消失的同學</div>
-          <div class="text">陳侑均, 張家瑜, 黃靖宸</div>
-          <button>
+
+      <div class="text-main">
+        「多線互動敘事」指的是透過與閱聽者互動以決定敘事走向、因而呈現複雜分支的一種敘事形式。這類構想由來已久，然而近年各方面技術條件趨於成熟，逐漸由實驗性作品擠身主流閱聽形式之林，並且廣泛應用於各類媒體與管道，如網頁、新聞媒體、視覺小說、混合媒材桌遊、電子遊戲、電視影集、影音串流平台、甚至大型院線片等等。這也意味著多線互動文本及技術的創造人才，已成了未來敘事潮流中不可或缺的一環。
+        多線互動敘事對傳統敘事形式具有強烈的顛覆性，甚至在敘事形式與技術上仍有許多實驗的空間。同學將有機會在課堂上觀賞時下熱門的多線互動敘事作品、與自己熟悉的敘事形式或創作習慣進行對觀、學習建構敘事空間的知識架構來強化大型作品的創作基底，並透過熟悉多線互動文本不可或缺的創作工具、結合自身擅長的敘事媒材，創作一部屬於自己的多線互動敘事作品；另外若擅長技術的同學修習本課程，亦可選擇為多線互動敘事開發獨特的技術框架做為期末作品展示。
+      </div>
+    </div>
+    <div class="card">
+      <img
+        src="http://74.207.225.52/mediawiki/images/9/95/《消失的同學》主視覺.jpg"
+        class="card__image"
+        alt="brown couch"
+      />
+      <div class="card__content">
+        <div class="card_date">第一組</div>
+        <!-- <time datetime="2021-03-30" class="card__date">30 März 2021</time> -->
+        <span class="card__title">《消失的同學》</span>
+        <div class="text">陳侑均, 張家瑜, 黃靖宸</div>
+        <div class="slider">
+          <button class="main">
             <i class="fas fa-video"></i>
-            <a href="https://www.youtube.com/">Demo Vedio</a>
+            <a href="http://172.104.74.216/">敘事作品</a>
           </button>
-          <button>
+          <button class="clean">
             <i class="fas fa-book"></i>
-            <a href="https://www.youtube.com/">小百科</a>
+            <a href="http://172.104.74.216/mediawiki/index.php/消失的同學潘博文"
+              >小百科</a
+            >
           </button>
-          <button>
+          <button class="clean">
             <i class="fas fa-play"></i>
-            <a href="https://www.youtube.com/">敘事作品</a>
+            <a href="https://youtu.be/wqGbuzH-cZs">簡報影片</a>
           </button>
         </div>
       </div>
-      <div class="inner-part">
-        <label for="imgTap" class="img">
-          <img
-            class="img-2"
-            src="https://i.pinimg.com/originals/7e/8e/f3/7e8ef32166487e8458de69d9fffb14c6.jpg"
-          />
-        </label>
-        <div class="content content-2">
-          <span>第二組</span>
-          <div class="title">明天投給雨天</div>
-          <div class="text">薛復蓉, 陳天心, 羅悅庭</div>
-          <button>
+    </div>
+    <div class="card">
+      <img
+        src="http://74.207.225.52/mediawiki/images/thumb/3/3a/《明天投給雨天》主視覺.jpg/500px-《明天投給雨天》主視覺.jpg"
+        class="card__image"
+        alt="brown couch"
+      />
+      <div class="card__content">
+        <div class="card_date">第二組</div>
+        <!-- <time datetime="2021-03-30" class="card__date">30 März 2021</time> -->
+        <span class="card__title">《明天投給雨天》</span>
+        <div class="text">薛復蓉, 陳天心, 羅悅庭</div>
+        <div class="slider">
+          <button class="main">
             <i class="fas fa-video"></i>
-            <a href="https://www.youtube.com/">Demo Vedio</a>
+            <a href="https://amberlo99.github.io/Group-2-Project/index.html"
+              >敘事作品</a
+            >
           </button>
-          <button>
+          <button class="clean">
             <i class="fas fa-book"></i>
             <a href="http://139.162.119.52/mediawiki">小百科</a>
           </button>
-          <button>
+          <button class="clean">
             <i class="fas fa-play"></i>
-            <a href="https://www.youtube.com/">敘事作品</a>
+            <a href="https://youtu.be/rmeL2MTqBOE">簡報影片</a>
           </button>
         </div>
       </div>
-      <div class="inner-part">
-        <label for="imgTap" class="img">
-          <img class="img-3" src="https://i.imgur.com/onJZon9.jpg" />
-        </label>
-        <div class="content content-3">
-          <span>第三組</span>
-          <div class="title">％浮。</div>
-          <div class="text">余廣哲, 陳芷姍, 廖慧琪</div>
-          <button>
+    </div>
+    <div class="card">
+      <img
+        src="http://74.207.225.52/mediawiki/images/9/95/《消失的同學》主視覺.jpg"
+        class="card__image"
+        alt="brown couch"
+      />
+      <div class="card__content">
+        <div class="card_date">第三組</div>
+        <!-- <time datetime="2021-03-30" class="card__date">30 März 2021</time> -->
+        <span class="card__title">《％浮。》</span>
+        <div class="text">余廣哲, 陳芷姍, 廖慧琪</div>
+        <div class="slider">
+          <button class="main">
             <i class="fas fa-video"></i>
-            <a href="https://www.youtube.com/">Demo Vedio</a>
+            <a href="http://172.104.65.21/">敘事作品</a>
           </button>
-          <button>
+          <button class="clean">
             <i class="fas fa-book"></i>
             <a href="http://172.104.65.21/mediawiki">小百科</a>
           </button>
-          <button>
+          <button class="clean">
             <i class="fas fa-play"></i>
-            <a href="http://172.104.65.21/">敘事作品</a>
+            <a href="https://youtu.be/w_TQN2SWedA">簡報影片</a>
           </button>
         </div>
       </div>
-      <div class="inner-part">
-        <label for="imgTap" class="img">
-          <img
-            class="img-4"
-            src="https://camo.githubusercontent.com/675b7181624342d817711aea4298a3e8333df8f206313f2b4447af914cd80c48/68747470733a2f2f692e696d6775722e636f6d2f707463706e76462e706e67"
-          />
-        </label>
-        <div class="content content-4">
-          <span>第四組</span>
-          <div class="title">監獄島</div>
-          <div class="text">陳文柔, 巫廷翰, 楊芷嫺</div>
-          <button>
+    </div>
+    <div class="card">
+      <img
+        src="http://74.207.225.52/mediawiki/images/thumb/c/c7/《監獄島》主視覺.png/600px-《監獄島》主視覺.png"
+        class="card__image"
+        alt="brown couch"
+      />
+      <div class="card__content">
+        <div class="card_date">第四組</div>
+        <!-- <time datetime="2021-03-30" class="card__date">30 März 2021</time> -->
+        <span class="card__title">《監獄島》</span>
+        <div class="text">陳文柔, 巫廷翰, 楊芷嫺</div>
+        <div class="slider">
+          <button class="main">
             <i class="fas fa-video"></i>
-            <a href="https://www.youtube.com/">Demo Vedio</a>
+            <a href="http://139.162.67.101/">敘事作品</a>
           </button>
-          <button>
+          <button class="clean">
             <i class="fas fa-book"></i>
             <a href="http://139.162.67.101/mediawiki">小百科</a>
           </button>
-          <button>
+          <button class="clean">
             <i class="fas fa-play"></i>
-            <a href="http://139.162.67.101/">敘事作品</a>
+            <a href="https://youtu.be/FqT4ClQuWcU">簡報影片</a>
           </button>
         </div>
       </div>
-      <div class="inner-part">
-        <label for="imgTap" class="img">
-          <img class="img-5" src="profile-1.jpg" />
-        </label>
-        <div class="content content-5">
-          <span>第五組</span>
-          <div class="title">凝視深海</div>
-          <div class="text">劉蔚琪, 施品光, 張劼</div>
-          <button>
+    </div>
+    <div class="card">
+      <img
+        src="http://74.207.225.52/mediawiki/images/thumb/a/af/《失語症》主視覺2.png/500px-《失語症》主視覺2.png"
+        class="card__image"
+        alt="brown couch"
+      />
+      <div class="card__content">
+        <div class="card_date">第五組</div>
+        <!-- <time datetime="2021-03-30" class="card__date">30 März 2021</time> -->
+        <span class="card__title">《失語症》</span>
+        <div class="text">袁沛恩, 林宇柔, 蕭珺文</div>
+        <div class="slider">
+          <button class="main">
             <i class="fas fa-video"></i>
-            <a href="https://www.youtube.com/">Demo Vedio</a>
+            <a href="http://139.162.77.108/">敘事作品</a>
           </button>
-          <button>
-            <i class="fas fa-book"></i>
-            <a href="https://www.youtube.com/">小百科</a>
-          </button>
-          <button>
-            <i class="fas fa-play"></i>
-            <a href="https://www.youtube.com/">敘事作品</a>
-          </button>
-        </div>
-      </div>
-      <div class="inner-part">
-        <label for="imgTap" class="img">
-          <img
-            class="img-6"
-            src="http://139.162.77.108/mediawiki/resources/assets/_n0ne.png?969e7"
-          />
-        </label>
-        <div class="content content-6">
-          <span>第六組</span>
-          <div class="title">失語症</div>
-          <div class="text">袁沛恩, 林宇柔, 蕭珺文</div>
-          <button>
-            <i class="fas fa-video"></i>
-            <a href="https://www.youtube.com/">Demo Vedio</a>
-          </button>
-          <button>
+          <button class="clean">
             <i class="fas fa-book"></i>
             <a href="http://139.162.77.108/mediawiki">小百科</a>
           </button>
-          <button>
+          <button class="clean">
             <i class="fas fa-play"></i>
-            <a href="http://139.162.77.108/">敘事作品</a>
+            <a href="https://youtu.be/rmRBryfEcRo">簡報影片</a>
           </button>
         </div>
       </div>
-      <div class="inner-part">
-        <label for="imgTap" class="img">
-          <img
-            class="img-7"
-            src="https://raw.githubusercontent.com/Shanti1212/Story/main/MediaWiki/LOGO.jpg"
-          />
-        </label>
-        <div class="content content-7">
-          <span>第七組</span>
-          <div class="title">疾樂園</div>
-          <div class="text">徐曼妮, 周育萱, 周世恩</div>
-          <button>
+    </div>
+    <div class="card">
+      <img
+        src="http://74.207.225.52/mediawiki/images/thumb/3/36/《疾樂園》主視覺.jpg/500px-《疾樂園》主視覺.jpg"
+        class="card__image"
+        alt="brown couch"
+      />
+      <div class="card__content">
+        <div class="card_date">第六組</div>
+        <!-- <time datetime="2021-03-30" class="card__date">30 März 2021</time> -->
+        <span class="card__title">《疾樂園》</span>
+        <div class="text">徐曼妮, 周育萱, 周世恩</div>
+        <div class="slider">
+          <button class="main">
             <i class="fas fa-video"></i>
-            <a href="https://www.youtube.com/">Demo Vedio</a>
+            <a href="http://172.104.84.216/">敘事作品</a>
           </button>
-          <button>
+          <button class="clean">
             <i class="fas fa-book"></i>
             <a href="http://172.104.84.216/mediawiki">小百科</a>
           </button>
-          <button>
+          <button class="clean">
             <i class="fas fa-play"></i>
-            <a href="http://172.104.84.216/">敘事作品</a>
+            <a href="https://youtu.be/mGoxsm35vYs">簡報影片</a>
           </button>
         </div>
       </div>
-      <div class="inner-part">
-        <label for="imgTap" class="img">
-          <img
-            class="img-8"
-            src="https://raw.githubusercontent.com/helena1111/Interactive-Branching-Narratives/main/夜來香.jpg"
-          />
-        </label>
-        <div class="content content-8">
-          <span>第八組</span>
-          <div class="title">夜來香</div>
-          <div class="text">蔡沂倫, 姜正晴, 姚奕慈</div>
-          <button>
+    </div>
+    <div class="card">
+      <img
+        src="http://74.207.225.52/mediawiki/images/thumb/0/0b/《夜來香》主視覺.jpg/500px-《夜來香》主視覺.jpg"
+        class="card__image"
+        alt="brown couch"
+      />
+      <div class="card__content">
+        <div class="card_date">第七組</div>
+        <!-- <time datetime="2021-03-30" class="card__date">30 März 2021</time> -->
+        <span class="card__title">《夜來香》</span>
+        <div class="text">蔡沂倫, 姜正晴, 姚奕慈</div>
+        <div class="slider">
+          <button class="main">
             <i class="fas fa-video"></i>
-            <a href="https://www.youtube.com/">Demo Vedio</a>
+            <a href="http://172.105.241.109/index.html">敘事作品</a>
           </button>
-          <button>
+          <button class="clean">
             <i class="fas fa-book"></i>
             <a href="http://172.105.241.109/mediawiki">小百科</a>
           </button>
-          <button>
+          <button class="clean">
             <i class="fas fa-play"></i>
-            <a href="http://172.105.241.109/index.html">敘事作品</a>
+            <a href="https://youtu.be/lmDVldJFoSE">簡報影片</a>
           </button>
         </div>
       </div>
-      <div class="inner-part">
-        <label for="imgTap" class="img">
-          <img
-            class="img-9"
-            src="http://139.162.117.77/mediawiki/resources/assets/logo.png"
-          />
-        </label>
-        <div class="content content-9">
-          <span>第九組</span>
-          <div class="title">Da Capo</div>
-          <div class="text">陳書玟, 張巧如, 陳昱喬</div>
-          <button>
+    </div>
+    <div class="card">
+      <img
+        src="http://74.207.225.52/mediawiki/images/5/52/《Da_Capo》主視覺.png"
+        class="card__image"
+        alt="brown couch"
+      />
+      <div class="card__content">
+        <div class="card_date">第八組</div>
+        <!-- <time datetime="2021-03-30" class="card__date">30 März 2021</time> -->
+        <span class="card__title">《Da Capo》</span>
+        <div class="text">陳書玟, 張巧如, 陳昱喬</div>
+        <div class="slider">
+          <button class="main">
             <i class="fas fa-video"></i>
-            <a href="https://www.youtube.com/">Demo Vedio</a>
+            <a href="http://139.162.117.77/">敘事作品</a>
           </button>
-          <button>
+          <button class="clean">
             <i class="fas fa-book"></i>
             <a href="http://139.162.117.77/mediawiki">小百科</a>
           </button>
-          <button>
+          <button class="clean">
             <i class="fas fa-play"></i>
-            <a href="http://139.162.117.77/">敘事作品</a>
+            <a href="https://youtu.be/RVUZk1PUNH8">簡報影片</a>
           </button>
         </div>
       </div>
-      <div class="inner-part">
-        <label for="imgTap" class="img">
-          <img
-            class="img-10"
-            src="https://scontent-tpe1-1.xx.fbcdn.net/v/t1.15752-9/s206x206/267208946_260152456209233_8180861885587897787_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=aee45a&_nc_ohc=BdkcKdJNijAAX920LrJ&_nc_ht=scontent-tpe1-1.xx&oh=03_AVJJ_9Guqk5xiN1YLn6Rgcu7q_0f-OWfDJM6JGcq1jZJPQ&oe=61FA36ED"
-          />
-        </label>
-        <div class="content content-10">
-          <span>第十組</span>
-          <div class="title">黃樑一貓</div>
-          <div class="text">游謦丞, 林季囷, 翁宥潔</div>
-          <button>
+    </div>
+    <div class="card">
+      <img
+        src="http://74.207.225.52/mediawiki/images/d/db/《黃樑一貓》主視覺.jpg"
+        class="card__image"
+        alt="brown couch"
+      />
+      <div class="card__content">
+        <div class="card_date">第九組</div>
+        <!-- <time datetime="2021-03-30" class="card__date">30 März 2021</time> -->
+        <span class="card__title">《黃樑一貓》</span>
+        <div class="text">游謦丞, 林季囷, 翁宥潔</div>
+        <div class="slider">
+          <button class="main">
             <i class="fas fa-video"></i>
-            <a href="https://www.youtube.com/">Demo Vedio</a>
+            <a href="http://139.162.117.80/">敘事作品</a>
           </button>
-          <button>
+          <button class="clean">
             <i class="fas fa-book"></i>
             <a href="http://139.162.117.80/mediawiki">小百科</a>
           </button>
-          <button>
+          <button class="clean">
             <i class="fas fa-play"></i>
-            <a href="http://139.162.117.80/">敘事作品</a>
+            <a href="https://youtu.be/mrUt_YKYsZE">簡報影片</a>
           </button>
         </div>
       </div>
-      <!-- <div class="inner-part">
-        <label for="imgTap" class="img">
-          <img class="img-2" src="profile-2.jpg" />
-        </label>
-        <div class="content content-2">
-          <span>26 December 2018</span>
-          <div class="title">Lorem Ipsum Dolor</div>
-          <div class="text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum eos
-            ut consectetur numquam ullam fuga animi laudantium nobis rem
-            molestias.
-          </div>
-          <button>Read more</button>
+    </div>
+    <div class="card">
+      <img
+        src="http://74.207.225.52/mediawiki/images/c/c1/《凝視深海》主視覺.png"
+        class="card__image"
+        alt="brown couch"
+      />
+      <div class="card__content">
+        <div class="card_date">第十組</div>
+        <!-- <time datetime="2021-03-30" class="card__date">30 März 2021</time> -->
+        <span class="card__title">《凝視深海》</span>
+        <div class="text">劉蔚琪, 施品光, 張劼</div>
+        <div class="slider">
+          <button class="main">
+            <i class="fas fa-video"></i>
+            <a href="http://139.162.77.94/">敘事作品</a>
+          </button>
+          <button class="clean">
+            <i class="fas fa-book"></i>
+            <a href="http://139.162.77.94/mediawiki">小百科</a>
+          </button>
+          <button class="clean">
+            <i class="fas fa-play"></i>
+            <a href="https://www.youtube.com/">簡報影片</a>
+          </button>
         </div>
       </div>
-      <div class="inner-part">
-        <label for="imgTap" class="img">
-          <img class="img-3" src="profile-3.jpg" />
-        </label>
-        <div class="content content-3">
-          <span>26 December 2019</span>
-          <div class="title">Lorem Ipsum Dolor</div>
-          <div class="text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
-            excepturi nemo commodi sint eum ipsam odit atque aliquam officia
-            impedit.
-          </div>
-          <button>Read more</button>
-        </div>
-      </div> -->
     </div>
+    <!-- <div class="card">
+  <img src="https://images.unsplash.com/photo-1615147342761-9238e15d8b96?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1001&q=80" class="card__image" alt="brown couch" />
+  <div class="card__content">
+    <time datetime="2021-03-30" class="card__date">30 März 2021</time>
+    <span class="card__title">Duis autem vel eum iriure dolor in hend in vulputate<span>
+  </div>
+</div>
+<div class="card">
+  <img src="https://images.unsplash.com/photo-1615147342761-9238e15d8b96?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1001&q=80" class="card__image" alt="brown couch" />
+  <div class="card__content">
+    <time datetime="2021-03-30" class="card__date">30 März 2021</time>
+    <span class="card__title">Duis autem vel eum iriure dolor in hend in vulputate<span>
+  </div>
+</div> -->
+    <!-- partial -->
   </body>
 </html>
