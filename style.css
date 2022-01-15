@@ -57,7 +57,7 @@ body {
   width: 90%;
   border-radius: var(--border-radius-primary);
   box-shadow: 24px 24px 80px rgba(0, 0, 0, 0.1);
-  padding: 3%;
+  padding: 3% 40px 5px 40px;
   box-sizing: border-box;
   /* margin: 20px; */
   display: flex;
@@ -175,12 +175,13 @@ button:hover {
 }
 .text-main {
   color: #0d0c0d;
-  font-size: 1.2rem;
+  font-size: 0.9rem;
   margin-bottom: 30px;
   line-height: 1.5em;
   padding: 0% 2% 2% 0%;
   text-align: justify;
 }
+
 .main {
   padding: 4% 5%;
   font-size: 1.2rem;
@@ -195,8 +196,29 @@ button:hover {
     display: block;
   }
 }
+a {
+  color: #473047;
+}
 .fas {
   padding: 2px;
   color: rgb(146, 81, 145);
   /* margin: 0 1px; */
+}
+.main-text-color {
+  color: #eff1f8;
+}
+.slogan {
+  font-size: 1rem;
+  /* letter-spacing: 0.5rem; */
+  /* padding: 0% 10%; */
+  position: absolute;
+  bottom: 20px;
+  right: 5%;
+  font-weight: 200;
+  color: rgba(0, 0, 0, 0.5);
+  z-index: 5;
+  border-radius: 3px;
+  display: block;
+  padding: 2px 5px;
+  border: 1px solid;
 }
